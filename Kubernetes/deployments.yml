@@ -4,3 +4,7 @@ metadata:
   name : my-deployment
   label:
     apptype : frontend
+spec:
+  container:
+    image : nginx
+    name: nginx10
